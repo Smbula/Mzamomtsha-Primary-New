@@ -16,13 +16,13 @@ Form
 </header>
 
 <p>
-<a href="index.html">Home</a>
+<a href = "index.html">Home</a>
 
 			
             <a href="index.html"></a>
 </p>
 
-<h2>Contact Us</h2>
+<h2>Form</h2>
 <h3> Please use this form in a decent manner!</h3>
 
 <div class = "wrapper">
@@ -32,19 +32,19 @@ Form
 
 <div class = "details-area">
     <li><label for="username">Name:</label></li>
-    <li><input type="text" name="username" size="50" /></li>
+    <li><input type="text" name="username" size="50" required/></li>
     <li><label for="address">Address:</label></li>
-    <li><input type="text" name="address" size="50" /></li>
+    <li><input type="text" name="address" size="50" required /></li>
     <li><label for="zip">ZIP Code:</label></li>
-    <li><input type="text" name="zip" /></li>
+    <li><input type="text" name="zip" required/></li>
     <li><label for="email">Email:</label></li>
-    <li><input type="text" name="email" size="50" /></li>
+    <li><input type="text" name="email" size="50" required/></li>
     <li><label id="gender">Sex:</label></li>
     <li><input type="radio" name="sex" value="Male" /><span>Male</span></li>
     <li><input type="radio" name="sex" value="Female" /><span>Female</span></li>
 
     <li><label for="desc">Message:</label></li>
-    <li><textarea name="desc" id="desc"></textarea></li>
+    <li><textarea name="desc" id="desc" placeholder="Your message here"></textarea></li>
     <li><input type="submit" name="submit" value="Submit" onclick="alert('Form submitted successfully')" /></li>
     </ul>
 
